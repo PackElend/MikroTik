@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-04T20:18:45.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" etag="MrDttUqWId5e3_7vHyO2" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-12T19:56:32.356Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" etag="dg9XA9nVbqK7i_iWgzl-" version="14.6.9" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
-    <mxGraphModel dx="856" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -166,10 +166,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-26" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.switch;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1175" y="508" width="92" height="41.5" as="geometry" />
+          <mxGeometry x="1500" y="722.5" width="92" height="41.5" as="geometry" />
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-27" value="Client" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.thin_client;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1437" y="498" width="71" height="71" as="geometry" />
+          <mxGeometry x="1620" y="370" width="71" height="71" as="geometry" />
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-28" value="Client" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.thin_client;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" parent="1" vertex="1">
           <mxGeometry x="1359" y="374" width="71" height="71" as="geometry" />
@@ -190,7 +190,7 @@
           <mxGeometry x="499" y="30" width="861" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gTeNPJghqzqdxU62Xz0F-6" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.jl659a_aruba_6300m_48_port_hpe_smart_rate_1_2_5_5gbe_class_6_poe_and_4_port_switch;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="111" width="424.75" height="45" as="geometry" />
+          <mxGeometry x="1028" y="150" width="424.75" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gTeNPJghqzqdxU62Xz0F-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gTeNPJghqzqdxU62Xz0F-8">
           <mxGeometry relative="1" as="geometry">
@@ -227,10 +227,22 @@
           <mxGeometry x="930" y="167.5" width="82" height="15" as="geometry" />
         </mxCell>
         <mxCell id="gTeNPJghqzqdxU62Xz0F-17" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.jl071a_hpe_aruba_3810m_24_port_gt_1_slot_switch;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="210" width="142" height="15" as="geometry" />
+          <mxGeometry x="1080" y="50" width="142" height="15" as="geometry" />
         </mxCell>
         <mxCell id="gTeNPJghqzqdxU62Xz0F-18" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.jl070a_2530_8_poeplus_internal_ps_switch;" vertex="1" parent="1">
           <mxGeometry x="900" y="220" width="82" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="gTeNPJghqzqdxU62Xz0F-19" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.jl661a_aruba_6300m_48_port_1gbe_class_4_poe_and_4_port_sfp56_switch;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="360" width="142" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="gTeNPJghqzqdxU62Xz0F-20" value="erewqrqe" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.mt.lv/cdn/rb_images/1228_hi_res.png;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="-340" width="424.16" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="gTeNPJghqzqdxU62Xz0F-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gTeNPJghqzqdxU62Xz0F-21" target="6a7d8f32e03d9370-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gTeNPJghqzqdxU62Xz0F-21" value="CCR1009-7G-1C-1S+&#xa;" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.mt.lv/cdn/rb_images/1228_hi_res.png;" vertex="1" parent="1">
+          <mxGeometry x="1087" y="-340" width="424" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
