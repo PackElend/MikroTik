@@ -69,7 +69,7 @@
 #######################################
 
  /interface ethernet
-   set comment="TAGGED PORT, VLAN-TRUNK TO ES, PoE-In" 			[find name=ether1]
+   set comment="TAGGED PORT, VLAN-TRUNK TO ES, PoE-In" 		[find name=ether1]
    set comment="TAGGED PORT, USER3, PoE-Out"	                [find name=ether2]    
 
 
@@ -140,13 +140,13 @@
 	
 	# add VLANs to be allowed on the tagged ports, only these will be trunked through the connected wire
   /interface bridge vlan
-  add bridge=bridge-VLANs vlan-ids=1   comment="BLACKHOLE"  		 			                      tagged=ether1
-  add bridge=bridge-VLANs vlan-ids=11  comment="GUEST WLAN"  					                      tagged=ether1
-	add bridge=bridge-VLANs vlan-ids=120 comment="USER 2, all devices in one vlan (by roas)" 	tagged=ether1
-	add bridge=bridge-VLANs vlan-ids=130 comment="USER 3, all devices in one vlan (by roas)" 	tagged=ether1
-	add bridge=bridge-VLANs vlan-ids=150 comment="USER 5, all devices in one vlan (by roas)" 	tagged=ether1
-	add bridge=bridge-VLANs vlan-ids=160 comment="USER 6, all devices in one vlan (by roas)" 	tagged=ether1
-  add bridge=bridge-VLANs vlan-ids=999 comment="BASE (MGMT) VLAN"  			                    tagged=ether1,bridge-VLANs
+  add bridge=bridge-VLANs vlan-ids=1   comment="BLACKHOLE"  		 			        tagged=ether1
+  add bridge=bridge-VLANs vlan-ids=11  comment="GUEST WLAN"  					        tagged=ether1
+  add bridge=bridge-VLANs vlan-ids=120 comment="USER 2, all devices in one vlan (by roas)" 	        tagged=ether1
+  add bridge=bridge-VLANs vlan-ids=130 comment="USER 3, all devices in one vlan (by roas)" 	        tagged=ether1
+  add bridge=bridge-VLANs vlan-ids=150 comment="USER 5, all devices in one vlan (by roas)" 	        tagged=ether1
+  add bridge=bridge-VLANs vlan-ids=160 comment="USER 6, all devices in one vlan (by roas)" 	        tagged=ether1
+  add bridge=bridge-VLANs vlan-ids=999 comment="BASE (MGMT) VLAN"  			                tagged=ether1,bridge-VLANs
 	
    
 
